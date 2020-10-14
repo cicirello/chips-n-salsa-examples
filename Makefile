@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	mvn verify
+	mvn package
 
 .PHONY: examples
 examples:
