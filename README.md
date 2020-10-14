@@ -13,6 +13,46 @@ and the prebuilt jars of the library can be imported from [Maven Central](https:
 using maven or other build tools. The purpose of this repository is to demonstrate usage of the major functionality of the
 Chips-n-Salsa library.
 
+## The Example Programs
+
+The source for several example programs is contained in this repository.
+Read the comments in the source code of the example programs 
+for a description of what they demonstrate, etc. Running the 
+examples without reading the source code, and comments, 
+is not advised, since the output of the example programs 
+requires the context of the code samples to be meaningful.
+
+__Basic Examples__: The following 
+examples are of basic usage using simulated annealing to optimize
+functions over different structure types: bit vectors, integer vectors,
+permutations, and a real-value function optimization example, the root finding 
+example:
+* org.cicirello.examples.chipsnsalsa.BitVectorExample
+* org.cicirello.examples.chipsnsalsa.IntegerVectorExample
+* org.cicirello.examples.chipsnsalsa.RootFindingExample
+* org.cicirello.examples.chipsnsalsa.PermutationExample
+
+__Parallel Examples__: The next couple examples are of parallel search:
+* org.cicirello.examples.chipsnsalsa.ParallelPermutationExample
+* org.cicirello.examples.chipsnsalsa.TimedParallelExample
+
+__Custom Problem Examples__: The following examples demonstrate defining a custom optimization
+problem (whereas the above examples mostly use benchmark problems
+included in the library):
+* org.cicirello.examples.chipsnsalsa.CustomProblemExample
+* org.cicirello.examples.chipsnsalsa.CustomIntegerCostProblemExample
+
+__Hybrid Search Examples__: The following examples show how multiple search algorithms can be
+integrated (e.g., combining hill climbing with simulated annealing):
+* org.cicirello.examples.chipsnsalsa.PostHillclimbExample
+* org.cicirello.examples.chipsnsalsa.PreHillclimbExample
+
+__Industrial Scheduling Problem Examples__: The following examples use scheduling 
+problems, and are also a bit more complex than some of the other example programs.
+* org.cicirello.examples.chipsnsalsa.SchedulingExample
+* org.cicirello.examples.chipsnsalsa.SchedulingWithVBSS
+
+
 ## Versioning Scheme
 
 The version numbers for the example programs mirror the versions of
