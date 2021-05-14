@@ -4,7 +4,8 @@ Copyright (C) 2020-2021 Vincent A. Cicirello. https://www.cicirello.org/
 
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/chips-n-salsa-examples.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.cicirello/chips-n-salsa-examples) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/chips-n-salsa-examples?logo=GitHub)](https://github.com/cicirello/chips-n-salsa-examples/releases) |
 | :--- | :--- |
-| __Source and Build Info__ | [![build](https://github.com/cicirello/chips-n-salsa-examples/workflows/build/badge.svg)](https://github.com/cicirello/chips-n-salsa-examples/actions?query=workflow%3Abuild) [![GitHub](https://img.shields.io/github/license/cicirello/chips-n-salsa-examples)](https://github.com/cicirello/chips-n-salsa-examples/blob/main/LICENSE) |
+| __Source and Build Info__ | [![build](https://github.com/cicirello/chips-n-salsa-examples/workflows/build/badge.svg)](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/build.yml) |
+| __License__ | [![GitHub](https://img.shields.io/github/license/cicirello/chips-n-salsa-examples)](https://github.com/cicirello/chips-n-salsa-examples/blob/main/LICENSE) |
 
 This repository contains several example programs of the usage of the [Chips-n-Salsa](https://chips-n-salsa.cicirello.org) 
 library. Chips-n-Salsa is a Java library of customizable, hybridizable, iterative, parallel, stochastic, and self-adaptive 
