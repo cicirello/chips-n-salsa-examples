@@ -1,6 +1,6 @@
 /*
  * Example programs for Chips-n-Salsa library.
- * Copyright (C) 2020  Vincent A. Cicirello
+ * Copyright (C) 2020-2021 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -83,7 +83,7 @@ public class TimedParallelExample {
 		
 		// Create the simulated annealing object.  
 		// We're using the default annealing schedule,
-		// the Modified Lam schedule in this example.  
+		// the Self-Tuning Lam schedule in this example.  
 		// There is another constructor that enables
 		// specifying a different annealing schedule.
 		SimulatedAnnealing<BitVector> sa = new SimulatedAnnealing<BitVector>(problem, mutation, init);

@@ -1,6 +1,6 @@
 /*
  * Example programs for Chips-n-Salsa library.
- * Copyright (C) 2020  Vincent A. Cicirello
+ * Copyright (C) 2020-2021 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,6 +30,7 @@ import org.cicirello.search.operators.permutations.InsertionMutation;
 import org.cicirello.search.restarts.ParallelVariableAnnealingLength;
 import org.cicirello.search.restarts.VariableAnnealingLength;
 import org.cicirello.search.sa.SimulatedAnnealing;
+import org.cicirello.search.sa.ModifiedLam;
 import org.cicirello.search.SolutionCostPair;
 import java.util.ArrayList;
 
@@ -174,12 +175,13 @@ public class SchedulingExample {
 			// We need to pass an instance of our desired search, which in this
 			// case is simulated annealing.  We are using the insertion mutation,
 			// which is what was used in the above paper, and we are using the default
-			// annealing schedule, the modified Lam schedule, which is an adaptive 
+			// annealing schedule, the Modified Lam schedule, which is an adaptive 
 			// annealing schedule.
 			new SimulatedAnnealing<Permutation>(
 				problem,
 				new InsertionMutation(),
-				new PermutationInitializer(NUM_JOBS)),
+				new PermutationInitializer(NUM_JOBS),
+				new ModifiedLam()),
 			// And we need to pass the TimedParallelMultistarter a 
 			// list of restart schedules, one for each thread.
 			// The ParallelVariableAnnealingLength class will generate
@@ -194,7 +196,8 @@ public class SchedulingExample {
 			new SimulatedAnnealing<Permutation>(
 				problem,
 				new InsertionMutation(),
-				new PermutationInitializer(NUM_JOBS)),
+				new PermutationInitializer(NUM_JOBS),
+				new ModifiedLam()),
 			// In this case, we want all of the parallel instances to use
 			// the same restart schedule, so we'll just pass one run length
 			// schedule, an instance of the VAL schedule.
@@ -212,7 +215,8 @@ public class SchedulingExample {
 			new SimulatedAnnealing<Permutation>(
 				problem,
 				new InsertionMutation(),
-				new PermutationInitializer(NUM_JOBS)),
+				new PermutationInitializer(NUM_JOBS),
+				new ModifiedLam()),
 			// The fixed annealing length
 			FIXED_LENGTH,
 			// This last parameter is the number of parallel instances to execute.
