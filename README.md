@@ -91,7 +91,8 @@ you will find a jarred version of Chips-n-Salsa that includes all of its depende
 ## Requirements to Build and Run the Example Programs from the Source
 
 To build and run the examples on your own machine, you will need the following:
-* __JDK 11__: I used OpenJDK 11, but you should be fine with Oracle's JDK as well. Technically, there is nothing in the code that strictly requires Java 11, so you should be able to build and run with JDK 8 or later. However, the Maven pom.xml provided in the repository assumes Java 11, so you will need to modify the pom.xml if you want to compile with earlier JDK versions. 
+* __JDK 11__: Beginning with Chips-n-Salsa, v3.0.0, the minimum supported version of Java is
+  Java 11, so you will need Java 11+ for the example programs. 
 * __Apache Maven__: In the root of the repository, there is a pom.xml for building the example programs. Using this pom.xml, Maven will take care of downloading the most recent version of the [Chips-n-Salsa](https://chips-n-salsa.cicirello.org/) library for which the examples have been tested, as well as Chips-n-Salsa's dependencies. The examples should also work with more recent versions of the library.
 * __Make__ (optional): The repository also contains a Makefile to simplify running the build, and running the example programs. If you are familiar with using the Maven build tool, then you can just run these directly, although the Makefile may be useful to see the specific commands needed, such as the main classes to execute for the example programs.
 
