@@ -1,6 +1,6 @@
 /*
  * Example programs for Chips-n-Salsa library.
- * Copyright (C) 2020  Vincent A. Cicirello
+ * Copyright (C) 2020-2021  Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -127,7 +127,7 @@ public class ParallelPermutationExample {
 				
 			// We can now create a SimulatedAnnealing object for the base form of the search.
 			// This example simply uses the default annealing schedule, an adaptive annealing schedule known
-			// as the Modified Lam schedule.  There is an optional fourth parameter that can be used
+			// as the Self-Tuning Lam schedule.  There is an optional fourth parameter that can be used
 			// to specify a different annealing schedule, and there are several to choose from 
 			// in the library.
 			SimulatedAnnealing<Permutation> sa = new SimulatedAnnealing<Permutation>(problem, mutation, init);

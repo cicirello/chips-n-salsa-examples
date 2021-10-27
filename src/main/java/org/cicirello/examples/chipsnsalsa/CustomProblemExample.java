@@ -1,6 +1,6 @@
 /*
  * Example programs for Chips-n-Salsa library.
- * Copyright (C) 2020  Vincent A. Cicirello
+ * Copyright (C) 2020-2021  Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -148,7 +148,7 @@ public class CustomProblemExample {
 		
 		// Create the simulated annealer, giving it the problem to solve, the 
 		// mutation operator, and the initializer.  This example uses the default
-		// annealing schedule, the Modified Lam schedule.  There are other
+		// annealing schedule, the Self-Tuning Lam schedule.  There are other
 		// constructors that allow specifying a different annealing schedule.
 		// The library uses generics so that simulated annealing can easily be applied
 		// to optimizing a variety of types of structures.  So we need to specify the
