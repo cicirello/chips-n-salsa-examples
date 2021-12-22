@@ -5,6 +5,7 @@ build:
 .PHONY: examples
 examples:
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.BitVectorExample
+	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.GeneticAlgorithmExamples
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.IntegerVectorExample
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.RootFindingExample
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.PermutationExample

@@ -24,11 +24,12 @@ is not advised, since the output of the example programs
 requires the context of the code samples to be meaningful.
 
 __Basic Examples__: The following 
-examples are of basic usage using simulated annealing to optimize
+examples are of basic usage using simulated annealing or genetic algorithms to optimize
 functions over different structure types: bit vectors, integer vectors,
 permutations, and a real-value function optimization example, the root finding 
 example:
 * org.cicirello.examples.chipsnsalsa.BitVectorExample
+* org.cicirello.examples.chipsnsalsa.GeneticAlgorithmExamples
 * org.cicirello.examples.chipsnsalsa.IntegerVectorExample
 * org.cicirello.examples.chipsnsalsa.RootFindingExample
 * org.cicirello.examples.chipsnsalsa.PermutationExample
