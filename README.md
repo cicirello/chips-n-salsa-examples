@@ -1,6 +1,6 @@
 # Example Programs for Usage of the Chips-n-Salsa Library
 
-Copyright (C) 2020-2021 Vincent A. Cicirello. https://www.cicirello.org/
+Copyright (C) 2020-2022 Vincent A. Cicirello. https://www.cicirello.org/
 
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/chips-n-salsa-examples.svg?label=Maven%20Central&logo=apachemaven)](https://search.maven.org/artifact/org.cicirello/chips-n-salsa-examples) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/chips-n-salsa-examples?logo=GitHub)](https://github.com/cicirello/chips-n-salsa-examples/releases) |
 | :--- | :--- |
