@@ -145,6 +145,21 @@
 			<artifactId>chips-n-salsa</artifactId>
 			<version>4.7.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.cicirello</groupId>
+			<artifactId>jpt</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cicirello</groupId>
+			<artifactId>rho-mu</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cicirello</groupId>
+			<artifactId>core</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 	</dependencies>
   
 	<properties>

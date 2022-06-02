@@ -25,4 +25,7 @@
 module org.cicirello.examples.chips_n_salsa {
 	exports org.cicirello.examples.chipsnsalsa;
 	requires org.cicirello.chips_n_salsa;
+	requires org.cicirello.jpt;
+	requires org.cicirello.rho_mu;
+	requires org.cicirello.core;
 }
