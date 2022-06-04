@@ -6,7 +6,7 @@
  
 	<groupId>org.cicirello</groupId>
 	<artifactId>chips-n-salsa-examples</artifactId>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
 	<packaging>jar</packaging>
   
 	<name>Chips-n-Salsa Example Programs</name>
@@ -164,7 +164,7 @@
   
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.release>11</maven.compiler.release>
+		<maven.compiler.release>17</maven.compiler.release>
 	</properties>
   
 	<build>
@@ -174,7 +174,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.10.1</version>
 				<configuration>
-					<release>11</release>
+					<release>17</release>
 				</configuration>
 			</plugin>
 			<plugin>
