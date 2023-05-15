@@ -2,7 +2,7 @@
 
 Copyright (C) 2020-2023 Vincent A. Cicirello. https://www.cicirello.org/
 
-| __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/chips-n-salsa-examples.svg?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/search?namespace=org.cicirello&q=chips-n-salsa-examples) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/chips-n-salsa-examples?logo=GitHub)](https://github.com/cicirello/chips-n-salsa-examples/releases) |
+| __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/chips-n-salsa-examples.svg?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/artifact/org.cicirello/chips-n-salsa-examples/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/chips-n-salsa-examples?logo=GitHub)](https://github.com/cicirello/chips-n-salsa-examples/releases) |
 | :--- | :--- |
 | __Build Status__ | [![build](https://github.com/cicirello/chips-n-salsa-examples/workflows/build/badge.svg)](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/build.yml) [![CodeQL](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/codeql-analysis.yml) |
 | __Security__ | [![Snyk security score](https://snyk-widget.herokuapp.com/badge/mvn/org.cicirello/chips-n-salsa-examples/badge.svg)](https://snyk.io/vuln/maven%3Aorg.cicirello%3Achips-n-salsa-examples) [![Snyk Known Vulnerabilities](https://snyk.io/test/github/cicirello/chips-n-salsa-examples/badge.svg)](https://snyk.io/test/github/cicirello/chips-n-salsa-examples) |
@@ -12,7 +12,7 @@ Copyright (C) 2020-2023 Vincent A. Cicirello. https://www.cicirello.org/
 This repository contains several example programs of the usage of the [Chips-n-Salsa](https://chips-n-salsa.cicirello.org) 
 library. Chips-n-Salsa is a Java library of customizable, hybridizable, iterative, parallel, stochastic, and self-adaptive 
 local search algorithms. [Chips-n-Salsa's source code](https://github.com/cicirello/Chips-n-Salsa) is maintained on GitHub,
-and the prebuilt jars of the library can be imported from [Maven Central](https://search.maven.org/artifact/org.cicirello/chips-n-salsa) 
+and the prebuilt jars of the library can be imported from [Maven Central](https://central.sonatype.com/artifact/org.cicirello/chips-n-salsa/) 
 using maven or other build tools. The purpose of this repository is to demonstrate usage of the major functionality of the
 Chips-n-Salsa library.
 
@@ -80,7 +80,7 @@ directly from the source (see the sections that follow).  However, we
 also provide jars of the compiled examples, as well as of the source and javadocs, 
 in a variety of ways:
 * [GitHub releases](https://github.com/cicirello/chips-n-salsa-examples/releases)
-* [Maven Central](https://search.maven.org/artifact/org.cicirello/chips-n-salsa-examples)
+* [Maven Central](https://central.sonatype.com/artifact/org.cicirello/chips-n-salsa-examples/)
 * [GitHub Packages](https://github.com/cicirello?tab=packages&repo_name=chips-n-salsa-examples)
 
 If you use the example programs in precompiled form, you will also need
