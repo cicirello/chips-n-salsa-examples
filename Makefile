@@ -9,6 +9,7 @@ examples:
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.IntegerVectorExample
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.RootFindingExample
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.PermutationExample
+	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.ConfigureRandomness
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.ParallelPermutationExample
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.TimedParallelExample
 	mvn exec:java -q -Dexec.mainClass=org.cicirello.examples.chipsnsalsa.CustomProblemExample
