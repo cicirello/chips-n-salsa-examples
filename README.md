@@ -36,6 +36,12 @@ example:
 * org.cicirello.examples.chipsnsalsa.RootFindingExample
 * org.cicirello.examples.chipsnsalsa.PermutationExample
 
+__Configuring the Random Number Generator__: If you either need to specify a particular
+pseudorabdom number generator (PRNG) to be used by the library, or if you want to seed its 
+default PRNG in order to exactly repeat a run of your program, or if you want to do both,
+then you can use the `Configurator` class. Here are examples of using the `Configurator` class.
+* org.cicirello.examples.chipsnsalsa.ConfigureRandomness
+
 __Parallel Examples__: The next couple examples are of parallel search:
 * org.cicirello.examples.chipsnsalsa.ParallelPermutationExample
 * org.cicirello.examples.chipsnsalsa.TimedParallelExample
