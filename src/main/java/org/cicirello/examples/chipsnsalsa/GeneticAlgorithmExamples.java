@@ -190,10 +190,10 @@ public class GeneticAlgorithmExamples {
 
     // Let's now just output the results.
     System.out.println("\nComparison of Three GA Variations on a OneMax Problem");
-    System.out.printf("%8s %12s %12s %12s\n", "Metric", "SimpleGA", "GA", "MutationOnly");
-    System.out.printf("%8s %12d %12d %12d\n", "Cost", sgaCost, gaCost, mogaCost);
-    System.out.printf("%8s %12d %12d %12d\n", "Value", sgaValue, gaValue, mogaValue);
-    System.out.printf("%8s %12.8f %12.8f %12.8f\n", "Fitness", sgaFitness, gaFitness, mogaFitness);
+    System.out.printf("%8s %12s %12s %12s%n", "Metric", "SimpleGA", "GA", "MutationOnly");
+    System.out.printf("%8s %12d %12d %12d%n", "Cost", sgaCost, gaCost, mogaCost);
+    System.out.printf("%8s %12d %12d %12d%n", "Value", sgaValue, gaValue, mogaValue);
+    System.out.printf("%8s %12.8f %12.8f %12.8f%n", "Fitness", sgaFitness, gaFitness, mogaFitness);
     System.out.println();
   }
 }

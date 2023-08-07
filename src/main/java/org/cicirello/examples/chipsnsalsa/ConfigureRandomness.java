@@ -138,7 +138,7 @@ public class ConfigureRandomness {
     for (int i = 0; i < firstRun.length; i++) {
       String isSame =
           firstRun[i] == secondRun[i] ? "same as expected" : "different (uh oh, please report bug)";
-      System.out.printf("%d\t%d\t%s\n", firstRun[i], secondRun[i], isSame);
+      System.out.printf("%d\t%d\t%s%n", firstRun[i], secondRun[i], isSame);
     }
     System.out.println();
 
