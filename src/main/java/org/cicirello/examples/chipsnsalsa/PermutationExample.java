@@ -123,7 +123,7 @@ public class PermutationExample {
     // Simply print the best of run solution.
     System.out.println("\nBest of run solution is:\n" + x + ",\nwith cost of " + cost);
     System.out.printf(
-        "Best solution was found %.10f seconds into the run.\n",
+        "Best solution was found %.10f seconds into the run.%n",
         timeBestSolutionFound / 1000000000.0);
   }
 }

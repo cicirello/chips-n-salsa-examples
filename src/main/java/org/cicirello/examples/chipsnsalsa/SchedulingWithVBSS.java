@@ -182,7 +182,7 @@ public class SchedulingWithVBSS {
     System.out.println("The numbers in the table is the cost function");
     System.out.println("that we are minimizing.");
     System.out.println();
-    System.out.printf("%7s\t%10s\t%10s\n", "Samples", "VBSS", "hybrid");
+    System.out.printf("%7s\t%10s\t%10s%n", "Samples", "VBSS", "hybrid");
     for (int totalSamples = 1, executedSamples = 0; totalSamples <= 100; totalSamples *= 10) {
       int samples = totalSamples - executedSamples;
       // Run each of the searches the number of samples to reach desired total.
@@ -192,7 +192,7 @@ public class SchedulingWithVBSS {
       vbss.optimize(samples);
       hybrid.optimize(samples);
       System.out.printf(
-          "%7d\t%10d\t%10d\n",
+          "%7d\t%10d\t%10d%n",
           totalSamples, vbss.getProgressTracker().getCost(), hybrid.getProgressTracker().getCost());
       executedSamples = totalSamples;
     }

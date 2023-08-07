@@ -199,7 +199,7 @@ public class CustomIntegerCostProblemExample {
     // Simply print the best of run solution.
     System.out.println("\nBest of run solution is:\n" + x + ",\nwith cost of " + cost);
     System.out.printf(
-        "\nBest solution was found %.10f seconds into the run.\n",
+        "%nBest solution was found %.10f seconds into the run.%n",
         timeBestSolutionFound / 1000000000.0);
 
     // If you want to know the total run length in number

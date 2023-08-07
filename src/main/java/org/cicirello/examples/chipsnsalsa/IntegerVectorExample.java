@@ -136,7 +136,7 @@ public class IntegerVectorExample {
     System.out.println();
     System.out.println("with cost of " + cost);
     System.out.printf(
-        "Best solution was found %.10f seconds into the run.\n",
+        "Best solution was found %.10f seconds into the run.%n",
         timeBestSolutionFound / 1000000000.0);
 
     // You can call optimize multiple times on a SimulatedAnnealing object
@@ -168,7 +168,7 @@ public class IntegerVectorExample {
     System.out.println();
     System.out.println("with cost of " + cost);
     System.out.printf(
-        "Best solution was found %.10f seconds into the run.\n",
+        "Best solution was found %.10f seconds into the run.%n",
         timeBestSolutionFound / 1000000000.0);
   }
 }

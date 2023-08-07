@@ -173,7 +173,7 @@ public class CustomProblemExample {
     double cost = solution.getCostDouble();
 
     // Simply prints the result.
-    System.out.printf("End of run solution is: x = %.12f, with cost of %.12f\n", x.get(), cost);
+    System.out.printf("End of run solution is: x = %.12f, with cost of %.12f%n", x.get(), cost);
 
     // The ProgressTracker contained in the SimulatedAnnealing object
     // contains the best of run solution.  Since simulated annealing
@@ -189,9 +189,9 @@ public class CustomProblemExample {
     long timeBestSolutionFound = tracker.elapsed();
 
     // Simply print the best of run solution.
-    System.out.printf("Best of run solution is: x = %.12f, with cost of %.12f\n", x.get(), cost);
+    System.out.printf("Best of run solution is: x = %.12f, with cost of %.12f%n", x.get(), cost);
     System.out.printf(
-        "Best solution was found %.10f seconds into the run.\n",
+        "Best solution was found %.10f seconds into the run.%n",
         timeBestSolutionFound / 1000000000.0);
 
     // If you want to know the total run length in number
