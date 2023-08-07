@@ -131,6 +131,23 @@
 			<build>
 				<plugins>
 					<plugin>
+						<groupId>org.hjug.refactorfirst.plugin</groupId>
+						<artifactId>refactor-first-maven-plugin</artifactId>
+						<version>0.4.0</version>       
+						<configuration>
+							<showDetails>true</showDetails>
+						</configuration>
+						<executions>
+							<execution>
+								<id>refactor-first</id>
+								<phase>test</phase>
+								<goals>
+									<goal>report</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
 						<groupId>com.github.spotbugs</groupId>
 						<artifactId>spotbugs-maven-plugin</artifactId>
 						<version>4.7.3.5</version>
