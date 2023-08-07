@@ -236,6 +236,7 @@ public class SchedulingExample {
     System.out.println("fixed run length for the restarts.");
     System.out.println("Please wait....");
     SolutionCostPair<Permutation> solutionF = fal.optimize(RUN_TIME);
+    System.out.println("Cost of end of run solution: " + solutionF.getCost());
 
     System.out.println();
     System.out.println("Executing a " + RUN_TIME + " second long run of");
@@ -244,6 +245,7 @@ public class SchedulingExample {
     System.out.println("(VAL) schedule of run lengths for the restarts.");
     System.out.println("Please wait....");
     SolutionCostPair<Permutation> solutionV = val.optimize(RUN_TIME);
+    System.out.println("Cost of end of run solution: " + solutionV.getCost());
 
     System.out.println();
     System.out.println("Executing a " + RUN_TIME + " second long run of");
@@ -252,6 +254,7 @@ public class SchedulingExample {
     System.out.println("schedule of run lengths for the restarts.");
     System.out.println("Please wait....");
     SolutionCostPair<Permutation> solutionP = pval.optimize(RUN_TIME);
+    System.out.println("Cost of end of run solution: " + solutionP.getCost());
 
     // Don't forget to close the TimedParallelMultistarters when you no longer
     // need to do any further optimization to allow it to shut down the threadpool.
