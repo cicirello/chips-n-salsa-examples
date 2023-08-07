@@ -117,8 +117,8 @@ This build process follows the usual Maven directory structure, so
 the `.class` files, `.jar` files, etc will be found in a `target` 
 directory that is created by the build process.
 
-To run various static analysis tools (e.g., SpotBugs, FindSecBugs, etc) during
-the build, run: `mvn clean package -Panalysis`.
+To run various static analysis tools (e.g., SpotBugs, FindSecBugs, refactor-first, 
+etc) during the build, run: `mvn clean package -Panalysis`.
 
 ## Running the Example Programs with Maven
 
