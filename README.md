@@ -1,12 +1,12 @@
 # Example Programs for Usage of the Chips-n-Salsa Library
 
-Copyright (C) 2020-2023 Vincent A. Cicirello. https://www.cicirello.org/
+Copyright (C) 2020-2026 Vincent A. Cicirello. https://www.cicirello.org/
 
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/chips-n-salsa-examples.svg?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/artifact/org.cicirello/chips-n-salsa-examples/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/chips-n-salsa-examples?logo=GitHub)](https://github.com/cicirello/chips-n-salsa-examples/releases) |
 | :--- | :--- |
 | __Build Status__ | [![build](https://github.com/cicirello/chips-n-salsa-examples/workflows/build/badge.svg)](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/build.yml) [![CodeQL](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cicirello/chips-n-salsa-examples/actions/workflows/codeql-analysis.yml) |
 | __Security__ | [![Snyk security score](https://snyk-widget.herokuapp.com/badge/mvn/org.cicirello/chips-n-salsa-examples/badge.svg)](https://snyk.io/vuln/maven%3Aorg.cicirello%3Achips-n-salsa-examples) [![Snyk Known Vulnerabilities](https://snyk.io/test/github/cicirello/chips-n-salsa-examples/badge.svg)](https://snyk.io/test/github/cicirello/chips-n-salsa-examples) |
-| __Other Information__ | [![GitHub](https://img.shields.io/github/license/cicirello/chips-n-salsa-examples)](https://github.com/cicirello/chips-n-salsa-examples/blob/main/LICENSE) [![style](https://img.shields.io/badge/style-Google%20Java%20Style-informational)](https://google.github.io/styleguide/javaguide.html) |
+| __Other Information__ | [![GitHub](https://img.shields.io/github/license/cicirello/chips-n-salsa-examples)](https://github.com/cicirello/chips-n-salsa-examples/blob/main/LICENSE) [![style](https://img.shields.io/badge/style-Google%20Java%20Style-informational)](https://google.github.io/styleguide/javaguide.html) ![Minimum supported Java version](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcicirello%2Fchips-n-salsa-examples%2Frefs%2Fheads%2Fmain%2Fpom.xml&query=%2F*%5Blocal-name()%3D'project'%5D%2F*%5Blocal-name()%3D'properties'%5D%2F*%5Blocal-name()%3D'maven.compiler.release'%5D&prefix=%3E%3D&label=Java) |
 | __Support__ | [![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/cicirello) [![Liberapay](https://img.shields.io/badge/Liberapay-F6C915?logo=liberapay&logoColor=black)](https://liberapay.com/cicirello) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/cicirello) |
 
 This repository contains several example programs of the usage of the [Chips-n-Salsa](https://chips-n-salsa.cicirello.org) 
@@ -97,11 +97,19 @@ of the [Chips-n-Salsa library](https://github.com/cicirello/Chips-n-Salsa)
 likewise in Maven Central, GitHub Releases, and GitHub Packages.  In particular,
 you will find a jarred version of Chips-n-Salsa that includes all of its dependencies.
 
+## Java Version Requirements
+
+| version | Java requirements |
+| --- | --- |
+| 8.x.y | Java 25+ |
+| 5.w.x to 7.y.z | Java 17+ |
+| 3.w.x to 4.y.z | Java 11+ |
+| 1.w.x to 2.y.z | Java 8+ |
+
 ## Requirements to Build and Run the Example Programs from the Source
 
 To build and run the examples on your own machine, you will need the following:
-* __JDK 17__: Beginning with Chips-n-Salsa, v5.0.0, the minimum supported version of Java is
-  Java 17, so you will need Java 17+ for the example programs. 
+* __JDK__: See the table above for [Java version requirements](#java-version-requirements).  
 * __Apache Maven__: In the root of the repository, there is a pom.xml for building the example programs. Using this pom.xml, Maven will take care of downloading the most recent version of the [Chips-n-Salsa](https://chips-n-salsa.cicirello.org/) library for which the examples have been tested, as well as Chips-n-Salsa's dependencies. The examples should also work with more recent versions of the library.
 * __Make__ (optional): The repository also contains a Makefile to simplify running the build, and running the example programs. If you are familiar with using the Maven build tool, then you can just run these directly, although the Makefile may be useful to see the specific commands needed, such as the main classes to execute for the example programs.
 
