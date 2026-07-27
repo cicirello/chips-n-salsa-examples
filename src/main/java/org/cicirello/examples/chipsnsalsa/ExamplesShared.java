@@ -1,6 +1,6 @@
 /*
  * Example programs for Chips-n-Salsa library.
- * Copyright (C) 2020-2023 Vincent A. Cicirello
+ * Copyright (C) 2020-2026 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,6 +25,8 @@ package org.cicirello.examples.chipsnsalsa;
  *     href=https://www.cicirello.org/ target=_top>https://www.cicirello.org/</a>
  */
 public class ExamplesShared {
+
+  private ExamplesShared() {}
 
   /** Prints copyright and license notices. */
   public static void printCopyrightAndLicense() {

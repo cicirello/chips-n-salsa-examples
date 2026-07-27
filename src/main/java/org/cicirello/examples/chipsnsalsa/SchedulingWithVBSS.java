@@ -1,6 +1,6 @@
 /*
  * Example programs for Chips-n-Salsa library.
- * Copyright (C) 2020-2024 Vincent A. Cicirello
+ * Copyright (C) 2020-2026 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -51,6 +51,8 @@ import org.cicirello.search.ss.ValueBiasedStochasticSampling;
  *     href=https://www.cicirello.org/ target=_top>https://www.cicirello.org/</a>
  */
 public class SchedulingWithVBSS {
+
+  private SchedulingWithVBSS() {}
 
   /**
    * Runs the example program.
