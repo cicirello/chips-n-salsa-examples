@@ -22,7 +22,7 @@ import static org.cicirello.examples.chipsnsalsa.ExamplesShared.*;
 
 import org.cicirello.search.ProgressTracker;
 import org.cicirello.search.SolutionCostPair;
-import org.cicirello.search.operators.integers.IntegerVectorInitializer;
+import org.cicirello.search.operators.Initializer;
 import org.cicirello.search.operators.integers.UndoableRandomValueChangeMutation;
 import org.cicirello.search.problems.BoundMax;
 import org.cicirello.search.representations.IntegerVector;
@@ -68,10 +68,11 @@ public class IntegerVectorExample {
 
     // Simulated annealing needs to be able to initialize the search with a random
     // starting point.  In this example, we will pass the problem object as
-    // the Initializer as well.  The reason is that BoundMax extends IntegerVectorInitializer
-    // in such a way as to ensure that the components of the vector are initialized within bounds
+    // the Initializer as well.  The reason is that BoundMax also implements the
+    // Initializer<IntegerVector> interface in such a way as to ensure that the
+    // components of the vector are initialized within bounds
     // (i.e., within the interval [0, 9]).
-    IntegerVectorInitializer initializer = problem;
+    Initializer<IntegerVector> initializer = problem;
 
     // We need a mutation operator for simulated annealing.
     // We use a random value change mutation in this example.
