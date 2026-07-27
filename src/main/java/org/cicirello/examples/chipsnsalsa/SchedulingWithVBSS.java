@@ -120,7 +120,7 @@ public class SchedulingWithVBSS {
     // cost function.  We'll specifically use ATCS with the self-tuned
     // parameters (there is another constructor that enables setting the
     // heuristic's parameters manually).
-    ATCS heuristic = new ATCS(problem);
+    ATCS heuristic = new ATCS(problem, schedulingInstance);
 
     // We'll now construct the instance of the VBSS search.
     // We pass the search a ConstructiveHeuristic, in this case the ATCS heuristic.
